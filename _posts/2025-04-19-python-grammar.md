@@ -176,7 +176,7 @@ tags: [Programming, Python]
     print('A')
   elif score >= 80 : 
     print('B')
-  else
+  else :
     print('C')
   ```  
 
@@ -216,7 +216,7 @@ tags: [Programming, Python]
   # 1부터 20까지 숫자 중에서 짝수만 출력
   for i in range(1, 21) :
     if i % 2 :
-      continue;
+      continue
     print(i)
   ```  
 <br/>
