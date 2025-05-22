@@ -1,8 +1,8 @@
 ---
 title: 이미지 생성형 AI - Stable Diffusion
 date: 2025-05-06
-categories: [AI, AI]
-tags: [AI, AI]
+categories: [Artificial Intelligence, Basic]
+tags: [Artificial Intelligence, Basic]
 ---
 
 ## Stable Diffusion
