@@ -6,15 +6,21 @@ tags: [Programming, Python]
 ---
 
 ##  파이썬의 역사
-- 1991  
-    \- Guido van Rossum 에 의해 처음 등장  
-    \- ABC 프로그래밍 언어의 장점을 차용
+<details>
+    <summary><b>1991</b></summary>
+    Guido van Rossum 에 의해 처음 등장<br>
+    ABC 프로그래밍 언어의 장점을 차용
+</details>
 
-- 2000  
-    \- 파이썬 2.0 릴리즈
+<details>
+    <summary><b>2000</b></summary>
+    파이썬 2.0 릴리즈
+</details>
 
-- 2008  
-    \- 파이썬 3.0 릴리즈
+<details>
+    <summary><b>2000</b></summary>
+    파이썬 3.0 릴리즈
+</details>
 
 
 ##  파이썬(Python)
