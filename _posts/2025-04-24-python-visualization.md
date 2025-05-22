@@ -39,7 +39,7 @@ tags: [Programming, Python]
   # 그래프 화면에 표현
   plt.show()
   ```  
-![ ](/assets/img/posts/matplotlib_plot.png)
+![ ](/assets/img/posts/matplotlib/matplotlib_plot.png)
 
 
 - 막대(bar) - 범주형 데이터 값 비교  
@@ -60,7 +60,7 @@ tags: [Programming, Python]
   # 그래프 화면에 표현
   plt.show()
   ```  
-![ ](/assets/img/posts/matplotlib_bar.png)
+![ ](/assets/img/posts/matplotlib/matplotlib_bar.png)
 
 - 산점도(scatter) - 두 변수간 상관관계 파악  
   ```python
@@ -77,7 +77,7 @@ tags: [Programming, Python]
   # 그래프 화면에 표현
   plt.show()
   ```  
-![ ](/assets/img/posts/matplotlib_scatter.png)
+![ ](/assets/img/posts/matplotlib/matplotlib_scatter.png)
 
 - 히스토그램(hist) - 데이터 분포 표현  
   ```python
@@ -94,7 +94,7 @@ tags: [Programming, Python]
   # 그래프 화면에 표현
   plt.show()
   ```  
-![ ](/assets/img/posts/matplotlib_hist.png)
+![ ](/assets/img/posts/matplotlib/matplotlib_hist.png)
 
 - 박스 플롯(boxplot) - 변수 분포를 요약하여 표현  
   ```python
@@ -111,7 +111,7 @@ tags: [Programming, Python]
   # 그래프 화면에 표현
   plt.show()
   ```  
-![ ](/assets/img/posts/matplotlib_boxplot.png)
+![ ](/assets/img/posts/matplotlib/matplotlib_boxplot.png)
 <br/>
 
 ## seaborn
@@ -151,7 +151,7 @@ tags: [Programming, Python]
   # 그래프 화면에 표현
   plt.show()
   ```  
-![ ](/assets/img/posts/seaborn_lineplot.png)
+![ ](/assets/img/posts/seaborn/seaborn_lineplot.png)
 
 - 막대(countplot/barplot) - 범주형 데이터 값 비교  
   \- countplot() : 데이터별 갯수
@@ -165,7 +165,7 @@ tags: [Programming, Python]
   # 그래프 화면에 표현
   plt.show()
   ```  
-![ ](/assets/img/posts/seaborn_countplot.png)
+![ ](/assets/img/posts/seaborn/seaborn_countplot.png)
   
   \- barplot() : 데이터에 대한 값의 크기
   ```python
@@ -178,7 +178,7 @@ tags: [Programming, Python]
   # 그래프 화면에 표현
   plt.show()
   ```  
-![ ](/assets/img/posts/seaborn_barplot.png)
+![ ](/assets/img/posts/seaborn/seaborn_barplot.png)
 
 - 산점도(scatterplot) - 두 변수간 상관관계 파악  
   ```python
@@ -191,7 +191,7 @@ tags: [Programming, Python]
   # 그래프 화면에 표현
   plt.show()
   ```  
-![ ](/assets/img/posts/seaborn_boxplot.png)
+![ ](/assets/img/posts/seaborn/seaborn_scatterplot.png)
 
 - 히스토그램(histplot) - 데이터 분포 표현  
   ```python
@@ -204,7 +204,7 @@ tags: [Programming, Python]
   # 그래프 화면에 표현
   plt.show()
   ```  
-![ ](/assets/img/posts/seaborn_histplot.png)
+![ ](/assets/img/posts/seaborn/seaborn_histplot.png)
 
 - 박스 플롯(boxplot) - 변수 분포를 요약하여 표현  
   ```python
@@ -217,7 +217,7 @@ tags: [Programming, Python]
   # 그래프 화면에 표현
   plt.show()
   ```  
-![ ](/assets/img/posts/seaborn_boxplot.png)
+![ ](/assets/img/posts/seaborn/seaborn_boxplot.png)
 
 - 히트맵(heatmap) - 색상 강도로 데이터 분포 표현  
   ```python
@@ -234,7 +234,7 @@ tags: [Programming, Python]
   # 그래프 화면에 표현
   plt.show()
   ```  
-![ ](/assets/img/posts/seaborn_heatmap.png)
+![ ](/assets/img/posts/seaborn/seaborn_heatmap.png)
 <br/>
 
 ## folium
@@ -261,7 +261,7 @@ tags: [Programming, Python]
   m = folium.Map(location=[37.566535, 126.9779692], zoom_start=12)
   m
   ```  
-![ ](/assets/img/posts/folium_map.png)
+![ ](/assets/img/posts/folium/folium_map.png)
 
 - 마커 추가
   ```python
@@ -269,7 +269,7 @@ tags: [Programming, Python]
   folium.Marker(location=[37.5759, 126.9768], tooltip='Click', popup='경복궁', icon=folium.Icon(color='red', icon='star')).add_to(m)
   m
   ```  
-![ ](/assets/img/posts/folium_marker.png)
+![ ](/assets/img/posts/folium/folium_marker.png)
 
 - 지도 저장
   ```python
@@ -288,4 +288,4 @@ tags: [Programming, Python]
   folium.Choropleth(geo_data=seoul_geo, data=seoul_total_popluation, columns=['지역구', '전체'], fill_color='YlGnBu', key_on='feature.properties.name').add_to(m)
   m
   ```  
-![ ](/assets/img/posts/folium_choropleth.png)
+![ ](/assets/img/posts/folium/folium_choropleth.png)
